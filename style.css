@@ -1,0 +1,180 @@
+/* Core styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #d3cdcf;
+}
+
+.container {
+    max-width: 1300px;
+    margin: auto;
+    background-color: white;
+    padding: 3rem;
+    border-radius: 0.6rem;
+}
+
+.display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.space-around {
+    display: flex;
+    justify-content: space-around;
+}
+
+.space-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.clear-fix {
+    clear: both;
+}
+
+/* Header */
+
+.nav-bar ul {
+    list-style: none;
+    padding-right: 2.5rem;
+}
+
+.nav-bar ul li {
+    padding-right: 2.5rem;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: black;
+}
+
+.button {
+    padding: 0.7rem 1.5rem;
+    border-radius: 2rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #b4a4ff;
+    color: white;
+}
+
+/* End of header */
+
+/* Section */
+
+.main-section-part {
+    padding-top: 6.25rem;
+
+}
+
+.main-section-part-1 {
+    padding-top: 3.25rem;
+}
+
+.main-section-part > div{
+    width: 50%;
+    float: left;
+}
+
+.main-section-image img {
+    width: 100%;
+    padding-left: 3rem;
+    border-radius: 10px;
+}
+
+.main-section h1 {
+    font-size: 4rem;
+    text-transform: capitalize;
+}
+
+.main-section h1 span {
+    color: goldenrod;
+}
+
+.main-section-statistics {
+    padding-top: 3rem;
+}
+
+.browse {
+    padding-top: 6.25rem;
+}
+
+.main-section-statistics a {
+    height: 2.5rem;
+    text-decoration: none;
+    color: white;
+}
+
+.main-section-numbers h1 {
+    font-size: 2.6rem;
+}
+
+/* End of section */
+
+/* Card section */
+
+.browse-cards a {
+    width: 17%;
+    text-decoration: none;
+    color: white;
+}
+
+.card {
+    /* width: 17%; */
+    height: 12rem;
+    border-radius: 2rem;
+    padding: 2rem;
+}
+
+.card i {
+    font-size: 2.2rem;
+    padding-bottom: 0.6rem;
+}
+
+.card p {
+    font-size: 1.3rem;
+    padding-bottom: 2rem;
+}
+
+.card-1 {
+    background-color: #fb75a2;
+    color: white;
+}
+
+.card-2 {
+    background-color: #a490ff;
+}
+
+.card-3 {
+    background-color: #6ed9f3;
+}
+
+.card-4 {
+    background-color: #febc71;
+}
+
+.browse-all button {
+    width: 3.1rem;
+    height: 3.1rem;
+    border-radius: 50%;
+    font-size: 2.5rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.browse-all p {
+    padding-left: 1rem;
+}
+
+.browse-all a {
+    color: black;
+}
+
